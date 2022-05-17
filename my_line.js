@@ -17,7 +17,7 @@ function output_num( math_function_dict,x){//output_num
                   ( math_function_dict.x3*( x*x*x     ) ) + 
                   ( math_function_dict.x2*( x*x       ) ) + 
                   ( math_function_dict.x1 * x           ) + 
-                  math_function_dict
+                  math_function_dict.x0
                 );     
 }//output_num
 
